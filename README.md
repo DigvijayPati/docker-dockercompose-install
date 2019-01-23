@@ -21,11 +21,42 @@ $ sudo rm -rf /usr/local/bin/docker-compose
 
  1. Download installation script for docker in current directory 
    ```bash
-   $ ubuntu@username:~/home/ubuntu$ curl -fsSL https://get.docker.com -o get-docker.sh
+   ubuntu@username:~$ curl -fsSL https://get.docker.com -o get-docker.sh
    ```
  2. Run script which will automatically install docker
    ```bash
-   $ ubuntu@username:~/home/ubuntu$ sh get-docker.sh
+   ubuntu@username:~$ sh get-docker.sh
    ```
-  
+ 3. Add user to the docker group
+   ```bash
+   ubuntu@username:~$ sh get-docker.sh
+   ```
+ 4. Reboot Machine
+
+ 5. Check the docker version
+   ```bash
+   ubuntu@username:~$ docker version 
+    Client:
+      Version:           18.09.1
+      API version:       1.39
+      Go version:        go1.10.6
+      Git commit:        4c52b90
+      Built:             Wed Jan  9 19:35:23 2019
+      OS/Arch:           linux/amd64
+      Experimental:      false
+
+     Server: Docker Engine - Community
+       Engine:
+       Version:          18.09.1
+       API version:      1.39 (minimum version 1.12)
+       Go version:       go1.10.6
+       Git commit:       4c52b90
+       Built:            Wed Jan  9 19:02:44 2019
+       OS/Arch:          linux/amd64
+       Experimental:     false
+   ```
+
+ 
+
+
 
