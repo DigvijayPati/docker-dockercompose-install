@@ -21,7 +21,11 @@ $ sudo rm -rf /usr/local/bin/docker-compose
 
  1. Download installation script for docker in current directory 
    ```bash
-   $ curl -fsSL https://get.docker.com -o get-docker.sh
+   $ ubuntu@username:~/home/ubuntu$ curl -fsSL https://get.docker.com -o get-docker.sh
    ```
- 2.  
+ 2. Run script which will automatically install docker
+   ```bash
+   $ ubuntu@username:~/home/ubuntu$ sh get-docker.sh
+   ```
+  
 
