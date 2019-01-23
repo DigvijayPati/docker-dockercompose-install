@@ -1,7 +1,7 @@
 # docker-dockercompose install
 docker & docker-compose installation
 
-### Uninstall old version of docker
+### A) Uninstall old version of docker
 ```bash
 $ sudo apt-get remove docker docker-engine docker.io containerd runc
 ```
@@ -17,14 +17,11 @@ $ sudo rm -rf /usr/local/bin/docker-compose
 
 ```
 
-### Install fresh docker 
+### B) Install fresh docker 
 
  1. Download installation script for docker in current directory 
    ```bash
    $ curl -fsSL https://get.docker.com -o get-docker.sh
    ```
  2.  
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
