@@ -29,7 +29,7 @@ $ sudo rm -rf /usr/local/bin/docker-compose
    ```
  3. Add user to the docker group
    ```bash
-   ubuntu@username:~$ sh get-docker.sh
+   ubuntu@username:~$ sudo usermod -aG docker $USER
    ```
  4. Reboot Machine
 
