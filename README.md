@@ -57,6 +57,8 @@ $ sudo rm -rf /usr/local/bin/docker-compose
    ```
 
  
+### C) Another method to install docker using Ansible
+https://markontech.com/devops/install-docker-using-ansible/ 
 
 
 
