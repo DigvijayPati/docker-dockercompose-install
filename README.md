@@ -60,5 +60,8 @@ $ sudo rm -rf /usr/local/bin/docker-compose
 ### C) Another method to install docker using Ansible
 https://markontech.com/devops/install-docker-using-ansible/ 
 
+### D) Another method to install docker using Ansible
+https://github.com/DigvijayPati/ansible-project/tree/master/ansible-install-docker
+
 
 
